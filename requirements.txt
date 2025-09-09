@@ -1,17 +1,2 @@
-# --- Web API ---
-fastapi>=0.110.0
-uvicorn[standard]>=0.29.0
-
-# --- Database ---
-sqlalchemy>=2.0.29
-psycopg2-binary>=2.9.9  # PostgreSQL driver
-
-# --- TRON Support ---
-tronpy>=0.4.8
-bip_utils>=2.8.0
-
-# --- Logging ---
-loguru>=0.7.2
-
-# --- Config management ---
-python-dotenv>=1.0.1
+requests>=2.31.0
+pytest>=8.0.0
